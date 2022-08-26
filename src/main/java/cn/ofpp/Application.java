@@ -27,11 +27,11 @@ public class Application {
 
         // -----------------  以下为演示数据  ------------------------
 
-        GirlFriend girlFriend = new GirlFriend("张紫阳宝宝",
+        GirlFriend girlFriend = new GirlFriend("张紫阳",
                 "河南省", "新乡市", "2003-10-23", "2022-08-04", "oD1gX6ABTlHOX5lHuYyplfIUYk-o");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
-        BoyFriend boyFriend = new BoyFriend("李明渊宝宝",
+        BoyFriend boyFriend = new BoyFriend("李明渊",
                 "河南省", "郑州市", "2002-08-22", "2022-08-04", "oD1gX6PI0A_95cEWll49yCP4EaRQ");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
     }
