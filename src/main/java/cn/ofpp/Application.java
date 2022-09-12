@@ -28,7 +28,7 @@ public class Application {
         // -----------------  以下为演示数据  ------------------------
 
         GirlFriend girlFriend = new GirlFriend("张紫阳",
-                "河南省", "新乡市", "2003-10-23", "2022-08-04", "oD1gX6ABTlHOX5lHuYyplfIUYk-o");
+                "河南省", "郑州市", "2003-10-23", "2022-08-04", "oD1gX6ABTlHOX5lHuYyplfIUYk-o");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         BoyFriend boyFriend = new BoyFriend("李明渊",
