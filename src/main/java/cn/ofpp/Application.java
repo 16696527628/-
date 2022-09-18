@@ -26,9 +26,9 @@ public class Application {
                 "河南省", "郑州市", "2002-08-22", "2022-08-04", "oD1gX6PI0A_95cEWll49yCP4EaRQ");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
         
-        GirlFriend girlFriend = new GirlFriend("刘珂",
+        GirlFriend girlFriend1 = new GirlFriend("刘珂",
                 "河南省", "商丘市", "2001-11-22", "2018-9-1", "oD1gX6Gts9_1-xxWNMkFfSa-15w0");
-        Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend1));
     }
 
 }
