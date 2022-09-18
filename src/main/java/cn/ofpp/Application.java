@@ -5,15 +5,6 @@ import cn.ofpp.core.GirlFriend;
 import cn.ofpp.core.MessageFactory;
 import cn.ofpp.core.Wx;
 
-/**
- * 启动类
- *
- * 这个理论上只能用测试号 正式的号 个人认证是不支持模板消息的 企业认证的又必须使用微信模板库里的模板 只有测试的可以自定义模板内容
- * <a href="https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index">申请公众号测试应用地址</a>
- *
- * @author DokiYolo
- * Date 2022-08-22
- */
 public class Application {
 
     /**
@@ -34,6 +25,10 @@ public class Application {
         BoyFriend boyFriend = new BoyFriend("李明渊",
                 "河南省", "郑州市", "2002-08-22", "2022-08-04", "oD1gX6PI0A_95cEWll49yCP4EaRQ");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(boyFriend));
+        
+        GirlFriend girlFriend = new GirlFriend("刘珂",
+                "河南省", "商丘市", "2001-11-22", "2018-9-1", "oD1gX6Gts9_1-xxWNMkFfSa-15w0");
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
     }
 
 }
