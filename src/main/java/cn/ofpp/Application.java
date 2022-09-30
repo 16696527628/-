@@ -29,6 +29,10 @@ public class Application {
         GirlFriend girlFriend1 = new GirlFriend("刘珂",
                 "河南省", "商丘市", "2001-11-22", "2018-9-1", "oD1gX6Gts9_1-xxWNMkFfSa-15w0");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend1));
+        
+        GirlFriend girlFriend1 = new GirlFriend("冯怡柯",
+                "河南省", "商丘市", "2022-09-27", "2022-9-27", "oD1gX6EP7vd1b0X_F1KZSTV_qtT4");
+        Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend1));
     }
 
 }
